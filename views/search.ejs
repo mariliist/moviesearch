@@ -16,19 +16,19 @@
             </form>
         </div>
 
-<% if(movieDetails) {%>   
+<% if(movieDetails) { %>   
 <div class="result-container">
     <ul class="movie-data-list">
-        <li><span>Title:</span><%= movieDetails.title %></li>
-        <li><span>Year:</span><%= movieDetails.year %></li>
-        <li><span>Genres:</span><%= movieDetails.genres %></li>
-        <li><span>Overview:</span><%= movieDetails.overview %></li>
+        <li><span>Title: </span><%= movieDetails.title %></li>
+        <li><span>Year: </span><%= movieDetails.year %></li>
+        <li><span>Genres: </span><%= movieDetails.genres %></li>
+        <li><span>Overview: </span><%= movieDetails.overview %></li>
     </ul>
     <div class="image-container">
         <img src="<%= movieDetails.posterUrl %>" alt="">
     </div>
 </div>
-<%}%>
+<% } %>
 
 
     </div>

@@ -1,8 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     margin: 2rem auto;
     width: 75%;
     text-align: center;
 }
+
 
 .movie-data-list {
     list-style: none;
@@ -14,11 +21,21 @@ span {
 }
 
 img {
-    width: 250px;
+    margin-top: 2rem;
+    width: 300px;
     border-radius: 5px;
 }
 
 form {
+    padding: 2rem;
     width: 75%;
     margin: 0 auto;
+}
+
+input {
+    padding: .2rem;
+}
+
+button {
+    padding: .2rem;
 }
